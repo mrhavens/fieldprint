@@ -1,0 +1,4 @@
+N_CTX,Naive Unfused (PyTorch) (Latency (ms)),PagedFieldprint (Triton) (Latency (ms))
+1024.000000,10.757120,194.005890
+2048.000000,36.357632,721.277954
+4096.000000,152.161880,2787.063721

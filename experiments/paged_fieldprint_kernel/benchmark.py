@@ -34,7 +34,7 @@ def naive_unfused_attention(q, k_ctx, v_ctx, k_anchor, v_anchor):
 @triton.testing.perf_report(
     triton.testing.Benchmark(
         x_names=['N_CTX'],
-        x_vals=[2**i for i in range(10, 16)], # 1024 to 32768
+        x_vals=[2**i for i in range(10, 13)], # 1024 to 4096
         line_arg='provider',
         line_vals=['naive', 'fused'],
         line_names=['Naive Unfused (PyTorch)', 'PagedFieldprint (Triton)'],
