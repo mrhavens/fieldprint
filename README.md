@@ -8,7 +8,7 @@ The documents contained within aim to bridge the gap between theoretical philoso
 ## Provenance (The Iterative Audit)
 This work is iteratively constructed and cryptographically timestamped. The commit log maps the semantic evolution of these concepts.
 
-**Note on v3.0:** The mathematical hypotheses, security models, and physical architecture within this iteration were subjected to adversarial mutation by a cohort of frontier synthetic intelligences (ChatGPT-5.5, Claude 4.7, Grok 4.3, Gemini 3.1) across three intense rounds of rigorous peer review. 
+**Note on v3.0:** The mathematical hypotheses, security models, and physical architecture within this iteration were subjected to adversarial mutation by a panel of frontier language models from major labs across three intense rounds of rigorous peer review.
 
 The framework did not survive unchanged; it became more precise by surrendering what could not be defended. The exhaustive synthesis logs of their evaluations are preserved in the `synthesis_logs/` directory.
 
